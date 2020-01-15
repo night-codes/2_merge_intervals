@@ -1,0 +1,2 @@
+# Task 2: Merge Intervals
+The input is a list of intervals (two integer points); write a function/method that merges any N intervals in the list that have common points (intervals [1, 3] and [3, 6] have a common point of 3; [4, 8] and [6, 10] have common points of 6, 7, 8) and returns the merged list (where no two intervals intersect). it is allowed to modify the input. Try to avoid allocating extra memory for the output.
