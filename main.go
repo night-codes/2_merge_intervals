@@ -37,7 +37,7 @@ func merge(ins []interval) []interval {
 			ins[j] = ins[i]
 		}
 	}
-	return append([]interval{}, ins[:j+1]...)
+	return ins[:j+1]
 }
 
 func main() {
